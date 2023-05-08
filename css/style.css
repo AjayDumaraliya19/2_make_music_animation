@@ -1,0 +1,135 @@
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+}
+
+.music {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.music .bar {
+    width: 5px;
+    border-radius: 10px;
+    background: #fff;
+    animation: movement 1.5s ease-in-out infinite;
+}
+
+@keyframes movement {
+
+    0%,
+    100% {
+        height: 2px;
+    }
+
+    50% {
+        height: 80px;
+    }
+}
+
+.music .bar:nth-child(1) {
+    background: #b65252;
+    animation-delay: 1s;
+}
+
+.music .bar:nth-child(2) {
+    background: pink;
+    animation-delay: 0.8s;
+}
+
+.music .bar:nth-child(3) {
+    background: #b65252;
+    animation-delay: 0.6s;
+}
+
+.music .bar:nth-child(4) {
+    background: pink;
+    animation-delay: 0.4s;
+}
+
+.music .bar:nth-child(5) {
+    background: #b65252;
+    animation-delay: 0.2s;
+}
+
+.music .bar:nth-child(6) {
+    background: pink;
+    animation-delay: 0.2s;
+}
+
+.music .bar:nth-child(7) {
+    background: #b65252;
+    animation-delay: 0.4s;
+}
+
+.music .bar:nth-child(8) {
+    background: pink;
+    animation-delay: 0.6s;
+}
+
+.music .bar:nth-child(9) {
+    background: #b65252;
+    animation-delay: 0.8s;
+}
+
+.music .bar:nth-child(10) {
+    background: pink;
+    animation-delay: 0.8s;
+}
+
+.music .bar:nth-child(11) {
+    background: #b65252;
+    animation-delay: 1s;
+}
+
+.music .bar:nth-child(12) {
+    background: pink;
+    animation-delay: 0.8s;
+}
+
+.music .bar:nth-child(13) {
+    background: #b65252;
+    animation-delay: 0.6s;
+}
+
+.music .bar:nth-child(14) {
+    background: pink;
+    animation-delay: 0.4s;
+}
+
+.music .bar:nth-child(15) {
+    background: #b65252;
+    animation-delay: 0.2s;
+}
+
+.music .bar:nth-child16) {
+    background: pink;
+    animation-delay: 0.2s;
+}
+
+.music .bar:nth-child(17) {
+    background: #b65252;
+    animation-delay: 0.4s;
+}
+
+.music .bar:nth-child(18) {
+    background: pink;
+    animation-delay: 0.6s;
+}
+
+.music .bar:nth-child(19) {
+    background: #b65252;
+    animation-delay: 0.8s;
+}
+
+.music .bar:nth-child(20) {
+    background: pink;
+    animation-delay: 0.8s;
+}
